@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <style>
+         body{
+            background-image:url('https://cdn.pixabay.com/photo/2014/06/11/17/00/food-366875_1280.jpg'); 
+            /* background-color: rgb(216, 188, 24); */
+            /* color: rgb(222, 215, 19); */
+
+         }
+         .left{
+         position: absolute;
+         /* border: 3px solid green;  */
+         display: inline-block;
+         left: 30px;
+          top: 15px;
+   
+         }
+         .left img{
+            width: 150px;
+            filter: invert(100%); 
+         }
+         .left div{
+            color:rgb(222, 185, 21);
+             text-align: left;
+             line-height: 30px;
+             font-size: 25px;
+        }
+         .mid{
+            display: block;  
+            width: 600px;
+            margin: 25px auto;
+            /* color: white; */
+  
+         }
+         .navbar{
+            /* display: inline-block; */
+         }
+         .navbar li{
+                display: inline-block;
+         padding: 5px;
+         font-size: 20px;
+         
+         
+         }
+         .navbar li a{
+            text-decoration: none;
+            color: white;
+         
+         
+         }
+         .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline; 
+         color: rgb(229, 187, 38);
+         }
+         .right{
+         position: absolute;
+         right: 50px;
+         top: 35px;
+         /* border: solid purple;  */
+         display: inline-block;
+         }
+         .btn{
+        margin: 0px 9px;
+        background-color: rgb(237, 225, 66);
+        color: black;
+        padding: 8px 20px;
+        border: solid black;
+        border-radius: 20px;
+        font: bold;
+        cursor: pointer;
+        font-size: 18px;
+
+
+    }
+    .btn:hover{
+        background-color: rgb(224, 136, 20);
+    }
+
+.container h1{
+    text-align: center;
+    color: white;
+    margin:0px;
+    font-size: 35px;
+    padding: 50px;
+}
+.container h3{
+    text-align: center;
+    color: rgb(225, 201, 19);
+    margin: 0px;
+    font-size: 20px;
+}
+.right1 {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 15px;
+}
+
+.btn1 {
+    margin: 320px 9px;
+    background-color: rgb(200, 34, 19);
+    padding: 8px 20px;
+    color: black;
+    border: solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.btn1:hover{
+        background-color: rgb(239, 205, 12);
+    }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+        <img src="https://webstockreview.net/images/clipart-restaurant-spoon-fork-18.png" alt="">
+        <div>Restaurant</div>
+        </div>
+      
+ 
+            <div class="mid">
+                <ul class="navbar">
+                   <li><a href="#">HOME</a></li>
+                   <li><a href="#">CHEFS</a></li>
+                   <li><a href="#">MENU</a></li>
+                   <li><a href="#">ABOUT US</a></li>
+                   <li><a href="#">GALLERY</a></li>
+                   <li><a href="#">CONTACTS</a></li>
+       
+                </ul>
+               </div> 
+
+                <!-- right box log in  -->
+        <div class="right">
+            <button class="btn">Book Now</button><button class="btn">Log In</button>
+           </div>
+
+    
+        <div class="container">
+            <h1>DELICIOUS FOOD MANU</h1>
+            <h3>Feels Like Home, Tastes Like A Paradise <br> Fresh, Delicious Meal To Reach Your Optimum Health And Fitness</h3>
+        </div>
+
+        <div class="right1">
+          <button class="btn1">Refer Now</button>
+        </div>
+
+</body>
+</html>
